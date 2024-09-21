@@ -14,3 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
     })
   })
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  const logoElement = document.querySelector('.logo');
+  const homeMarkElement = document.querySelector('.homeMark');
+  logoElement.addEventListener('click', () => {
+    document.querySelector('.active').classList.remove('active');
+    homeMarkElement.classList.add('active');
+  })
+})

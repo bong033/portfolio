@@ -1,0 +1,17 @@
+.contactDetail {
+  
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.linkedin-link, .github-link, .email-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}

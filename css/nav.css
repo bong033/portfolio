@@ -1,0 +1,14 @@
+.navbar-toggler,
+.btn-close {
+  &:focus{
+    box-shadow: none;
+  } 
+}
+
+.nav-link {
+  color: rgb(91, 91, 88)
+}
+
+.active {
+  color: white;
+}

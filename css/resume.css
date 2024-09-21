@@ -1,0 +1,39 @@
+.resumeHeading {
+  width: 100%;
+  text-align: center;
+}
+
+.resume {
+  background-color: white;
+  color: black;
+}
+
+.resumeSectionOdd, .resumeSectionEven {
+  text-align: left;
+}
+
+.resumeSectionOdd {
+  background-color: rgb(215, 237, 245);
+}
+
+
+.downloadResume {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin-top: -40px;
+}
+
+.downloadUrl {
+  display: flex;
+  background-color: rgb(135, 246, 207);
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}

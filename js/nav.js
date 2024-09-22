@@ -9,18 +9,18 @@ document.addEventListener('DOMContentLoaded', function() {
       // collapse the menu after selecting an item
       bsOffcanvas.hide();
       // Highlight the selected item
-      document.querySelector('.active').classList.remove('active');
-      link.classList.add('active'); 
+      // document.querySelector('.active').classList.remove('active');
+      // link.classList.add('active'); 
     })
   })
 })
 
-document.addEventListener('DOMContentLoaded', function() {
+// document.addEventListener('DOMContentLoaded', function() {
 
-  const logoElement = document.querySelector('.logo');
-  const homeMarkElement = document.querySelector('.homeMark');
-  logoElement.addEventListener('click', () => {
-    document.querySelector('.active').classList.remove('active');
-    homeMarkElement.classList.add('active');
-  })
-})
+//   const logoElement = document.querySelector('.logo');
+//   const homeMarkElement = document.querySelector('.homeMark');
+//   logoElement.addEventListener('click', () => {
+//     document.querySelector('.active').classList.remove('active');
+//     homeMarkElement.classList.add('active');
+//   })
+// })

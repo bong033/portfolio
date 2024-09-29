@@ -7,8 +7,8 @@
 }
 
 .profileImage {
-  width: 20em;
-  height: 20em;
+  width: 15em;
+  height: 15em;
   object-fit: cover;
   border-radius: 10em;
 }

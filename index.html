@@ -60,12 +60,22 @@
     <!-- Start of Profile -->
     <div class="container text-center profile">
         <div class="row">
-            <!-- Left section of Profile -->
-            <div class="col-md" style="padding-top: 50px">
+            <!-- Left section of Profile -->        
+            <div class="col-md" style="padding-top: 10px">
                 <img class="profileImage" src="images/profileimage.jpeg" alt="bong" />
+                <div class="py-3">
+                    <a href="mailto: chbong33@ymail.com" class="email-link px-3" target="_blank"><img class="icon-email" style="width: 48px" src="images/email.jpeg" alt="email" /></a>
+                    <a href="http://www.linkedin.com/in/bong-chong-hiang-b5bb2b318" class="linkedin-link px-3" target="_blank"><img class="icon-linkedin" style="width: 50px" src="images/linkedin.jpeg" alt="linkedin" /></a>
+                    <a href="http://www.github.com/bong033" class="github-link px-3" target="_blank"><img class="icon-github" style="width: 50px" src="images/github.jpeg" alt="github" /></a>
+                </div>
+                <div>
+                    <h5 class="fw-bold pt-3">Skillsets aquired</h5>
+                    <p>HTML, CSS, JavaScript, Bootstrap, Java, Node Red, MySQL</p>
+                </div>
             </div>
             <!-- Right section of Profile -->
             <div class="col-sm" style="text-align: left">
+                
                 <h3 class="profileName">Bong Chong Hiang</h3>
                 <p class="profileAboutMe">A little about me.</p>
                 <p>My professional journey includes:</p>
@@ -88,6 +98,111 @@
     <a name="projects"></a>
     <!-- Insert line divider -->
     <hr class="divider" />
+
+    <!-- Start of Power Monitoring Solution -->
+    <div class="container-fluid text-center dark py-5">
+        <div class="row">
+            <!-- Left section -->
+            <div class="col-sm">
+                <div class="pms pt-2">
+                    <video width="80%" height="auto" controls autoplay muted loop> 
+                        <source src="assets/power-monitoring-solution.mp4" type="video/mp4"></video>
+                </div>
+            </div>
+
+            <!-- Right section for description and development tools -->
+            <div class="col-sm">
+                <!-- pms description heading -->
+                <div>
+                    <p class="pmsDescription">Web Application</p>
+                </div>
+                <!-- Colmar description details -->
+                <div class="pmsDevImages">
+                    <p style="font-weight: bold; text-align: left; margin: 0px">
+                        Power Monitoring solution
+                    </p>
+                    <ul class="pmsNote">
+                        <li>Display real time data for current, voltage, power etc.</li>
+                        <li>Display historical data for current, voltage, power etc.</li>
+                        <li>Calculate total cost for selected duration period.</li>
+                    </ul>
+    
+                    <div class="col-sm">
+                        <!-- Development Tools heading -->
+                        <div>
+                            <p class="developmentTools">Development Tools</p>
+                        </div>
+                        <!-- Development Tools details -->
+                        <div class="pmsVideo">
+                            <p style="font-weight: bold; text-align: left; margin: 0px">
+                                Developed with
+                            </p>
+                            <ul class="pmsNote">
+                                <li>Node Red</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Power Monitoring Solution -->
+
+    <!-- Start of Carrot Game -->
+    <div class="container-fluid text-center">
+        <div class="row">
+            <!-- Left section -->
+            <div class="col-sm">
+                <div class="gameCarrot pt-5">
+                    <video width="80%" height="auto" controls autoplay muted loop>
+                        <source src="assets/carrot-game.mp4" type="video/mp4"></video>
+                </div>
+            </div>
+
+            <!-- Right section for description and development tools -->
+            <div class="col-sm">
+                <!-- Carrot Game description heading -->
+                <div>
+                    <p class="gameCarrotDescription">Interative Game via terminal</p>
+                </div>
+                <!-- Carrot Game description details -->
+                <div class="gameCarrotDevImages">
+                    <p style="font-weight: bold; text-align: left; margin: 0px">
+                        Find the carrot Game
+                    </p>
+                    <ul class="gameCarrotNote">
+                        <li>Player start by selecting numbers of rows and column.</li>
+                        <li>Move player (*) using up(u), down(d), left(l), right(r).</li>
+                        <li>Player will lose the game if drop into hole(o).</li>
+                        <li>Player will lose the game if move out of field.</li>
+                        <li>Player win the game if found the carrot(^).</li>
+                    </ul>
+                    <!-- Insert line divider -->
+                    <!-- <hr class="divider"> -->
+                    <div class="col-sm">
+                        <!-- Development Tools heading -->
+                        <div>
+                            <p class="developmentTools">Development Tools</p>
+                        </div>
+                        <!-- Development Tools details -->
+                        <div class="gameCarrotVideo">
+                            <p style="font-weight: bold; text-align: left; margin: 0px">
+                                Developed with
+                            </p>
+                            <ul class="gameNote">
+                                <li>Node JS</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="https://github.com/bong033/carrot-game.git" target="_blank" class="btn btn-primary my-4">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Carrot Game -->
 
     <!-- Start of Scissors Paper Rock Game -->
     <div class="container-fluid text-center dark">
@@ -146,11 +261,8 @@
     </div>
     <!-- End of Scissors Paper Stone Game -->
 
-    <!-- Insert line divider -->
-    <hr class="divider" />
-
     <!-- Start of Colmar -->
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center py-5">
         <div class="row">
             <!-- Left section -->
             <div class="col-sm">
@@ -202,124 +314,8 @@
     </div>
     <!-- End of Colmar -->
 
-<!-- Insert line divider -->
-<hr class="divider" />
-
-<!-- Start of Carrot Game -->
-<div class="container-fluid text-center dark">
-    <div class="row">
-        <!-- Left section -->
-        <div class="col-sm">
-            <div class="gameCarrot pt-5">
-                <video width="80%" height="auto" controls autoplay muted loop>
-                    <source src="assets/carrot-game.mp4" type="video/mp4"></video>
-            </div>
-        </div>
-
-        <!-- Right section for description and development tools -->
-        <div class="col-sm">
-            <!-- Carrot Game description heading -->
-            <div>
-                <p class="gameCarrotDescription">Interative Game via terminal</p>
-            </div>
-            <!-- Carrot Game description details -->
-            <div class="gameCarrotDevImages">
-                <p style="font-weight: bold; text-align: left; margin: 0px">
-                    Find the carrot Game
-                </p>
-                <ul class="gameCarrotNote">
-                    <li>Player start by selecting numbers of rows and column.</li>
-                    <li>Move player (*) using up(u), down(d), left(l), right(r).</li>
-                    <li>Player will lose the game if drop into hole(o).</li>
-                    <li>Player will lose the game if move out of field.</li>
-                    <li>Player win the game if found the carrot(^).</li>
-                </ul>
-                <!-- Insert line divider -->
-                <!-- <hr class="divider"> -->
-                <div class="col-sm">
-                    <!-- Development Tools heading -->
-                    <div>
-                        <p class="developmentTools">Development Tools</p>
-                    </div>
-                    <!-- Development Tools details -->
-                    <div class="gameCarrotVideo">
-                        <p style="font-weight: bold; text-align: left; margin: 0px">
-                            Developed with
-                        </p>
-                        <ul class="gameNote">
-                            <li>Node JS</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="https://github.com/bong033/carrot-game.git" target="_blank" class="btn btn-primary my-4">GitHub Repository</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End of Carrot Game -->
-
-<!-- Insert line divider -->
-<hr class="divider" />
-
-<!-- Start of Power Monitoring Solution -->
-<div class="container-fluid text-center">
-    <div class="row">
-        <!-- Left section -->
-        <div class="col-sm">
-            <div class="pms pt-2">
-                <video width="80%" height="auto" controls autoplay muted loop> 
-                    <source src="assets/power-monitoring-solution.mp4" type="video/mp4"></video>
-            </div>
-        </div>
-
-        <!-- Right section for description and development tools -->
-        <div class="col-sm">
-            <!-- pms description heading -->
-            <div>
-                <p class="pmsDescription">Web Application</p>
-            </div>
-            <!-- Colmar description details -->
-            <div class="pmsDevImages">
-                <p style="font-weight: bold; text-align: left; margin: 0px">
-                    Power Monitoring solution
-                </p>
-                <ul class="pmsNote">
-                    <li>Display real time data for current, voltage, power etc.</li>
-                    <li>Display historical data for current, voltage, power etc.</li>
-                    <li>Calculate total cost for selected duration period.</li>
-                </ul>
-                <!-- Insert line divider -->
-                <!-- <hr class="divider"> -->
-                <div class="col-sm">
-                    <!-- Development Tools heading -->
-                    <div>
-                        <p class="developmentTools">Development Tools</p>
-                    </div>
-                    <!-- Development Tools details -->
-                    <div class="pmsVideo">
-                        <p style="font-weight: bold; text-align: left; margin: 0px">
-                            Developed with
-                        </p>
-                        <ul class="pmsNote">
-                            <li>Node Red</li>
-                            <li>MySQL</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End of Power Monitoring Solution -->
-
     <a name="contact"></a>
-    <!-- Insert line divider -->
-    <hr class="divider" />
-    <!-- End of Resume -->
-    <hr class="divider" />
-
+ 
     <!-- Start of Contact details -->
     <div class="container-fluid contactDetail">
         <div class="row">
@@ -343,9 +339,6 @@
         
     </div>
     <!-- End of Contact details -->
-
-    <!-- Insert line divider -->
-    <hr class="divider" />
 
     <script src="./js/nav.js"></script>
     <script src="./js/project.js"></script>

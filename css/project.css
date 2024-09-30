@@ -48,7 +48,6 @@ cursor: pointer;
 }
 
 .developmentTools, .gameDescription, .responsiveDescription, .gameCarrotDescription, .pmsDescription {
-  font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   font-weight: bolder;
   color: rgb(124, 179, 197);

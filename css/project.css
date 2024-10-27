@@ -47,7 +47,7 @@ border-radius: 5px;
 cursor: pointer;
 }
 
-.developmentTools, .gameDescription, .responsiveDescription, .gameCarrotDescription, .pmsDescription {
+.developmentTools, .gameDescription, .responsiveDescription, .gameCarrotDescription, .pmsDescription, .capstoneDescription, .spotifyDescription {
   font-size: 20px;
   font-weight: bolder;
   color: rgb(124, 179, 197);
@@ -56,6 +56,6 @@ cursor: pointer;
   text-align: left;
 }
 
-.gameNote, .responsiveNote, .gameCarrotNote, .pmsNote {
+.gameNote, .responsiveNote, .gameCarrotNote, .pmsNote, .capstoneNote, .spotifyNote {
   text-align: left;
 }

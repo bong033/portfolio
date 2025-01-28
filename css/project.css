@@ -47,7 +47,7 @@ border-radius: 5px;
 cursor: pointer;
 }
 
-.developmentTools, .gameDescription, .responsiveDescription, .gameCarrotDescription, .pmsDescription, .capstoneDescription, .spotifyDescription {
+.developmentTools, .gameDescription, .responsiveDescription, .gameCarrotDescription, .pmsDescription, .capstoneDescription, .spotifyDescription, .cmsDescription {
   font-size: 20px;
   font-weight: bolder;
   color: rgb(124, 179, 197);
@@ -56,6 +56,6 @@ cursor: pointer;
   text-align: left;
 }
 
-.gameNote, .responsiveNote, .gameCarrotNote, .pmsNote, .capstoneNote, .spotifyNote {
+.gameNote, .responsiveNote, .gameCarrotNote, .pmsNote, .capstoneNote, .spotifyNote, .cmsNote {
   text-align: left;
 }
